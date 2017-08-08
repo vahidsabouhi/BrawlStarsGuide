@@ -26,27 +26,27 @@
         android:layout_centerHorizontal="true" />
 
     <ImageView
-        android:id="@+id/the..."
+        android:id="@+id/the"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/bbb"
         android:layout_below="@+id/brawlstars"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/bbb" />
 
     <ImageView
-        android:id="@+id/rahnama..."
+        android:id="@+id/rahnama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         app:srcCompat="@drawable/cccccc"
-        android:layout_below="@+id/the..."
+        android:layout_below="@+id/the"
         android:layout_centerHorizontal="true" />
 
     <ImageView
         android:id="@+id/version"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/rahnama..."
+        android:layout_below="@+id/rahnama"
         android:layout_centerHorizontal="true"
         app:srcCompat="@drawable/dddd" />
 

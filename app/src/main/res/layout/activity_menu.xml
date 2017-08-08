@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menuwallpaper"
+    android:visibility="visible"
+    tools:context="com.example.vm2team.brawlstarsguide.menu">
+
+    <ImageButton
+        android:id="@+id/beginnersguide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/beginnersguide"
+        app:srcCompat="@drawable/beginnersguide"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/battlemodes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/battlemodes"
+        app:srcCompat="@drawable/battlemodes"
+        android:layout_below="@+id/beginnersguide"
+        android:layout_alignStart="@+id/beginnersguide" />
+
+    <ImageButton
+        android:id="@+id/brawlboxes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/brawlboxes"
+        app:srcCompat="@drawable/brawlboxes"
+        android:layout_below="@+id/battlemodes"
+        android:layout_alignStart="@+id/battlemodes" />
+
+    <ImageButton
+        android:id="@+id/brawlers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/brawlers"
+        app:srcCompat="@drawable/brawlers"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/brawlboxes"
+        android:layout_alignStart="@+id/gems" />
+
+    <ImageButton
+        android:id="@+id/gems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gems"
+        app:srcCompat="@drawable/gems"
+        android:layout_below="@+id/brawlers"
+        android:layout_alignStart="@+id/chips" />
+
+    <ImageButton
+        android:id="@+id/chips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/chips"
+        app:srcCompat="@drawable/chips"
+        android:layout_below="@+id/gems"
+        android:layout_alignStart="@+id/brawlboxes" />
+
+    <ImageButton
+        android:id="@+id/coins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/chips"
+        android:layout_marginStart="35dp"
+        android:layout_toEndOf="@+id/beginnersguide"
+        android:background="@drawable/coins"
+        app:srcCompat="@drawable/coins" />
+
+    <ImageButton
+        android:id="@+id/trophies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/trophies"
+        app:srcCompat="@drawable/trophies"
+        android:layout_alignBottom="@+id/elixir"
+        android:layout_alignStart="@+id/coins" />
+
+    <ImageButton
+        android:id="@+id/elixir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/elixir"
+        app:srcCompat="@drawable/elixir"
+        android:layout_below="@+id/coins"
+        android:layout_alignStart="@+id/chips" />
+
+    <ImageButton
+        android:id="@+id/gamemodes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gamemodes"
+        app:srcCompat="@drawable/gamemodes"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/elixir"
+        android:layout_alignStart="@+id/elixir" />
+
+</RelativeLayout>
