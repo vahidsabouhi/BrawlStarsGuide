@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wlcwallpaper"
+    tools:context="com.example.vm2team.brawlstarsguide.beginnersguide">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="21dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:id="@+id/top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="47dp"
+                android:layout_alignParentTop="true"
+                app:srcCompat="@drawable/topbeginnersguide" />
+
+            <ImageView
+                android:id="@+id/firsttext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-100dp"
+                app:srcCompat="@drawable/firsttextbeginnersguide" />
+
+            <ImageView
+                android:id="@+id/firstpic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-95dp"
+                app:srcCompat="@drawable/firstpicbeginnersguide" />
+
+            <ImageView
+                android:id="@+id/secondtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-56dp"
+                app:srcCompat="@drawable/secondtextbeginnersguide" />
+
+            <ImageView
+                android:id="@+id/secondpic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-55dp"
+                app:srcCompat="@drawable/secondpicbeginnersguide" />
+
+            <ImageView
+                android:id="@+id/thirdtext"
+                android:layout_width="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-208dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/thirdtextbeginnersguide" />
+
+            <ImageView
+                android:id="@+id/thirdpic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-199dp"
+                app:srcCompat="@drawable/thirdpicbeginnersguide" />
+
+            <ImageView
+                android:id="@+id/forthtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-180dp"
+                app:srcCompat="@drawable/forthtextbeginnersguide" />
+
+            <ImageView
+                android:id="@+id/forthpic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-180dp"
+                app:srcCompat="@drawable/forthpicbeginnersguide" />
+
+            <ImageView
+                android:id="@+id/fifthtext"
+                android:layout_width="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-85dp"
+                app:srcCompat="@drawable/fifthtextbeginnersguide" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

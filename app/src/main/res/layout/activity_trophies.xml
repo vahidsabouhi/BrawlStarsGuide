@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wlcwallpaper"
+    tools:context="com.example.vm2team.brawlstarsguide.trophies">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="21dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@drawable/toptrophies" />
+
+            <ImageView
+                android:id="@+id/firsttext"
+                android:layout_width="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-73dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/firsttexttrophies" />
+
+            <ImageView
+                android:id="@+id/pic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-70dp"
+                app:srcCompat="@drawable/pictrophies" />
+
+            <ImageView
+                android:id="@+id/secondtext"
+                android:layout_width="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-145dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-112dp"
+                app:srcCompat="@drawable/secondtexttrophies" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

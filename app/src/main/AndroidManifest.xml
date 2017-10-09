@@ -17,7 +17,24 @@
             </intent-filter>
         </activity>
         <activity android:name=".menu" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".brawlers" />
+        <activity android:name=".gems" />
+        <activity android:name=".chips" />
+        <activity android:name=".coins" />
+        <activity android:name=".elixir" />
+        <activity android:name=".trophies" />
+        <activity android:name=".brawlboxes" />
+        <activity android:name=".controlmodes" />
+        <activity android:name=".obtainingbrawlers" />
+        <activity android:name=".levelingupbrawlers" />
+        <activity android:name=".battlemodes" />
+        <activity android:name=".beginnersguide" />
+        <activity android:name=".gamemodes" />
+        <activity android:name=".overview" />
+        <activity android:name=".bounty" />
+        <activity android:name=".heist" />
+        <activity android:name=".showdown" />
+        <activity android:name=".smashgrab" />
     </application>
 
 </manifest>

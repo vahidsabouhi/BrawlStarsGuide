@@ -12,8 +12,8 @@
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true">
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
 
 
         <LinearLayout
@@ -32,10 +32,10 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="194dp"
                 android:layout_marginTop="0dp"
-                android:background="@drawable/beginnersguide"
-                app:srcCompat="@drawable/beginnersguide" />
+                android:background="@drawable/menubeginnersguide"
+                app:srcCompat="@drawable/menubeginnersguide" />
 
             <ImageButton
                 android:id="@+id/battlemodes"
@@ -44,22 +44,21 @@
                 android:layout_below="@+id/beginnersguide"
                 android:layout_centerHorizontal="true"
 
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/battlemodes"
-                app:srcCompat="@drawable/battlemodes" />
+                android:layout_marginStart="191dp"
+                android:layout_marginTop="19dp"
+                android:background="@drawable/menubattlemodes"
+                app:srcCompat="@drawable/menubattlemodes" />
 
             <ImageButton
-                android:id="@+id/brawlboxes"
+                android:id="@+id/gamemodes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/battlemodes"
-                android:layout_centerHorizontal="true"
-
-                android:layout_marginStart="20dp"
+                android:layout_alignStart="@+id/elixir"
+                android:layout_below="@+id/elixir"
+                android:layout_marginStart="196dp"
                 android:layout_marginTop="19dp"
-                android:background="@drawable/brawlboxes"
-                app:srcCompat="@drawable/brawlboxes" />
+                android:background="@drawable/menugamemodes"
+                app:srcCompat="@drawable/menugamemodes" />
 
             <ImageButton
                 android:id="@+id/brawlers"
@@ -68,10 +67,22 @@
                 android:layout_below="@+id/brawlboxes"
                 android:layout_centerHorizontal="true"
 
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="138dp"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/brawlers"
-                app:srcCompat="@drawable/brawlers" />
+                android:background="@drawable/menubrawlers"
+                app:srcCompat="@drawable/menubrawlers" />
+
+            <ImageButton
+                android:id="@+id/brawlboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/battlemodes"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginStart="211dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/menubrawlboxes"
+                app:srcCompat="@drawable/menubrawlboxes" />
 
             <ImageButton
                 android:id="@+id/gems"
@@ -79,11 +90,11 @@
                 android:layout_height="wrap_content"
                 android:layout_alignStart="@+id/chips"
                 android:layout_below="@+id/brawlers"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="119dp"
 
                 android:layout_marginTop="20dp"
-                android:background="@drawable/gems"
-                app:srcCompat="@drawable/gems" />
+                android:background="@drawable/menugems"
+                app:srcCompat="@drawable/menugems" />
 
             <ImageButton
                 android:id="@+id/chips"
@@ -91,34 +102,23 @@
                 android:layout_height="wrap_content"
                 android:layout_alignStart="@+id/brawlboxes"
                 android:layout_below="@+id/gems"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="209dp"
 
                 android:layout_marginTop="20dp"
-                android:background="@drawable/chips"
-                app:srcCompat="@drawable/chips" />
+                android:background="@drawable/menuchips"
+                app:srcCompat="@drawable/menuchips" />
 
             <ImageButton
                 android:id="@+id/coins"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignTop="@+id/chips"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="259dp"
                 android:layout_marginTop="18dp"
                 android:layout_toEndOf="@+id/beginnersguide"
-                android:background="@drawable/coins"
+                android:background="@drawable/menucoins"
 
-                app:srcCompat="@drawable/coins" />
-
-            <ImageButton
-                android:id="@+id/trophies"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBottom="@+id/elixir"
-                android:layout_alignStart="@+id/coins"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="19dp"
-                android:background="@drawable/trophies"
-                app:srcCompat="@drawable/trophies" />
+                app:srcCompat="@drawable/menucoins" />
 
             <ImageButton
                 android:id="@+id/elixir"
@@ -126,21 +126,21 @@
                 android:layout_height="wrap_content"
                 android:layout_alignStart="@+id/chips"
                 android:layout_below="@+id/coins"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="264dp"
                 android:layout_marginTop="18dp"
-                android:background="@drawable/elixir"
-                app:srcCompat="@drawable/elixir" />
+                android:background="@drawable/menuelixir"
+                app:srcCompat="@drawable/menuelixir" />
 
             <ImageButton
-                android:id="@+id/gamemodes"
+                android:id="@+id/trophies"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignStart="@+id/elixir"
-                android:layout_below="@+id/elixir"
-                android:layout_marginStart="20dp"
+                android:layout_alignBottom="@+id/elixir"
+                android:layout_alignStart="@+id/coins"
+                android:layout_marginStart="219dp"
                 android:layout_marginTop="19dp"
-                android:background="@drawable/gamemodes"
-                app:srcCompat="@drawable/gamemodes" />
+                android:background="@drawable/menutrophies"
+                app:srcCompat="@drawable/menutrophies" />
 
             <ImageButton
                 android:id="@+id/controlmodes"
@@ -148,10 +148,32 @@
                 android:layout_height="wrap_content"
                 android:layout_alignStart="@+id/chips"
                 android:layout_below="@+id/gamemodes"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="185dp"
+                android:paddingTop="0dp"
+                android:layout_marginBottom="25dp"
                 android:layout_marginTop="19dp"
-                android:background="@drawable/controlmodes"
-                app:srcCompat="@drawable/controlmodes" />
+                android:background="@drawable/menucontrolmodes"
+                app:srcCompat="@drawable/menucontrolmodes" />
+
+            <ImageButton
+                android:id="@+id/obtainingbrawlers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menuobtainingbrawlers"
+                android:layout_marginBottom="25dp"
+                android:layout_marginStart="107dp"
+                android:layout_marginTop="-5dp"
+                app:srcCompat="@drawable/menuobtainingbrawlers" />
+
+            <ImageButton
+                android:id="@+id/levelingupbrawlers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/menulevelingupbrawlers"
+                android:layout_marginStart="123dp"
+                android:layout_marginTop="-5dp"
+                app:srcCompat="@drawable/menulevelingupbrawlers" />
 
         </LinearLayout>
     </ScrollView>

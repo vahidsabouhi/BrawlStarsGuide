@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wlcwallpaper"
+    tools:context="com.example.vm2team.brawlstarsguide.showdown">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="21dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="47dp"
+                android:layout_alignParentTop="true"
+                app:srcCompat="@drawable/topshowdown" />
+
+            <ImageView
+                android:id="@+id/firsttext"
+                android:layout_width="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-45dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/firsttextshowdown" />
+
+            <ImageView
+                android:id="@+id/firstpic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-40dp"
+                app:srcCompat="@drawable/firstpicshowdown" />
+
+            <ImageView
+                android:id="@+id/secondtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-94dp"
+                app:srcCompat="@drawable/secondtextshowdown" />
+
+            <ImageView
+                android:id="@+id/secondpic"
+                android:layout_width="match_parent"
+                android:layout_marginTop="-90dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/secondpicshowdown" />
+
+            <ImageView
+                android:id="@+id/thirdtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-79dp"
+                app:srcCompat="@drawable/thirdtextshowdown" />
+
+            <ImageView
+                android:id="@+id/thirdpic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-80dp"
+                android:layout_marginBottom="50dp"
+                app:srcCompat="@drawable/thirdpicshowdown" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
